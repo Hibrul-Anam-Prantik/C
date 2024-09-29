@@ -7,5 +7,7 @@ int main() {
     printf("%d\n", a);
     printf("%c\n", c);
     printf("%f\n", pi);
+    float final_price = 100;
+    int _num = 5;
     return 0;
 }
