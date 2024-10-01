@@ -8,6 +8,6 @@ int main() {
     printf("The number is: %d\n", num);
     printf("This is: %c\n", ch);
     printf("Theaa selected Character is: %c\n", hash);
-    printf("Height: %f", height); printf(" inch\n");
+    printf("Height: %.02f", height); printf(" inch\n");
     return 0;
 }
