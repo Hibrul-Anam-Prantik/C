@@ -24,5 +24,13 @@ int main() {
     a = 5, b = 2;
     mod = a % b;
     printf("Modulus       : %d\n", mod);
+
+/*     x = 4/2 + 8*4 - (5+2) % 3 
+    => x = 2 + 32 - 7%3 
+    => x = 34 - 1;
+    => x = 33;
+*/
+double x = 4/2 + 8*4 - (5+2)%3;
+    printf("x = %.2lf\n", x);
     return 0;
 }
